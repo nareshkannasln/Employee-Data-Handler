@@ -17,3 +17,14 @@ It supports full CRUD operations (Create, Read, Update, Delete) with a Tailwind 
 - **Other:** PyMongo, bson
 
 ## 📂 Project Structure
+Employee-Data-Handler/
+│
+├── app.py # Main Flask application
+├── db_config.py # MongoDB connection details
+├── templates/ # HTML templates
+│ ├── index.html # Employee list page
+│ ├── add_employee.html # Add new employee form
+│ └── edit_employee.html # Edit employee form
+├── static/ # (Optional) CSS/JS files
+├── requirements.txt # Python dependencies
+└── README.md
